@@ -24,6 +24,10 @@ app.use(express.static(publicPath));
 const server = http.createServer(app);
 const io = socketIO(server);
 
+app.get('/', (req, res) => {
+	res.send('index.html');
+});
+
 io.on('connection', (socket) => {
 	console.log('Connected to Client');
 	socket.on('newMessage', (message) => {
