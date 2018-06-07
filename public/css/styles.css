@@ -1,0 +1,39 @@
+#notify {
+	color: red;
+}
+#sent-notify{
+	color: green;
+}
+h2{
+	text-align: center;
+}
+.col-sm-4 {
+	text-align: center;
+	border: 1px solid black;
+	margin: 5px 5px 5px 5px;
+}
+
+
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+#html {
+    width: 70%;
+}
+
+#css {
+    width: 65%;
+}
+
+#script {
+    width: 90%;
+}
+
+#json {
+    width: 100%;
+}
+
+#mongodb {
+    width: 100%;
+}
